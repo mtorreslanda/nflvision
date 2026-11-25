@@ -4,7 +4,9 @@
 
 NFLVision takes ordinary game footage and turns every play into tracking data: the position of all 22 players in field yards, ten times per second, with team, role, speed and direction. Everything shown here was produced by the pipeline on a **public video it had never seen**, with no tracking data available for that game.
 
-![Live board](media/live-board.gif)
+
+https://github.com/user-attachments/assets/512284dd-67b5-4edf-bc8c-817633f0f4ac
+
 
 <sub>Kansas City vs Baltimore, 2024 season opener. Left: the game video with overlays re-projected from our tracks. Right: the same play from above. Bottom: metrics computed live from the tracks. [Full-resolution video (MP4)](media/live-board.mp4).</sub>
 
