@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 300" width="1240" height="300" font-family="-apple-system, 'Segoe UI', 'DM Sans', Helvetica, Arial, sans-serif">
+  <rect width="1240" height="300" fill="#F5F3EE"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#6B6B6B"/></marker>
+  </defs>
+  <text x="24" y="34" font-family="ui-monospace, 'JetBrains Mono', Consolas, monospace" font-size="13" letter-spacing="2" fill="#6B6B6B">NFLVISION · FROM VIDEO TO TRACKING DATA</text>
+  <g font-size="15">
+    <!-- 7 stages -->
+    <g transform="translate(24,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#6B6B6B">01</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Game video</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">All-22 footage,</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">sideline + end zone</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">camera, 60 fps</text>
+    </g>
+    <g transform="translate(198,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#6B6B6B">02</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Plays &amp; shots</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">cut detection,</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">camera angle from</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">field-line geometry</text>
+    </g>
+    <g transform="translate(372,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#C0522A" stroke-width="2"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#C0522A">03 · neural</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Detection</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">RF-DETR transformer,</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">fine-tuned to find</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">players, not officials</text>
+    </g>
+    <g transform="translate(546,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#6B6B6B">04</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Field registration</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">yard lines, hashes,</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">yard numbers read →</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">homography per frame</text>
+    </g>
+    <g transform="translate(720,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#6B6B6B">05</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Tracking</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">in field yards, team</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">by jersey colour,</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">smoothed at 10 Hz</text>
+    </g>
+    <g transform="translate(894,64)">
+      <rect width="150" height="150" fill="#FFFFFF" stroke="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#6B6B6B">06</text>
+      <text x="14" y="56" font-weight="600" fill="#1A1A1A">Play context</text>
+      <text x="14" y="82" font-size="13" fill="#4A4A4A">snap, line of</text>
+      <text x="14" y="100" font-size="13" fill="#4A4A4A">scrimmage, offense,</text>
+      <text x="14" y="118" font-size="13" fill="#4A4A4A">roles of all 22</text>
+    </g>
+    <g transform="translate(1068,64)">
+      <rect width="150" height="150" fill="#1A1A1A"/>
+      <text x="14" y="30" font-family="ui-monospace, Consolas, monospace" font-size="12" fill="#C9C4B8">07</text>
+      <text x="14" y="56" font-weight="600" fill="#F5F3EE">Analytics</text>
+      <text x="14" y="82" font-size="13" fill="#D8D3C8">pocket, pressure,</text>
+      <text x="14" y="100" font-size="13" fill="#D8D3C8">separation, space,</text>
+      <text x="14" y="118" font-size="13" fill="#D8D3C8">speed, formation</text>
+    </g>
+  </g>
+  <g stroke="#6B6B6B" stroke-width="1.5" marker-end="url(#a)">
+    <line x1="176" y1="139" x2="196" y2="139"/><line x1="350" y1="139" x2="370" y2="139"/><line x1="524" y1="139" x2="544" y2="139"/>
+    <line x1="698" y1="139" x2="718" y2="139"/><line x1="872" y1="139" x2="892" y2="139"/><line x1="1046" y1="139" x2="1066" y2="139"/>
+  </g>
+  <text x="24" y="252" font-size="13" fill="#6B6B6B">Output per play: x, y in yards for every player at 10 Hz, team, role, speed and direction — the same shape as league tracking data.</text>
+  <text x="24" y="274" font-size="13" fill="#6B6B6B">Only stage 03 is a neural network; the rest is geometry, filtering and statistics written for this problem.</text>
+</svg>
